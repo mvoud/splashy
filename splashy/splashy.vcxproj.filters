@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{8d75dc6e-a953-4abd-a056-ce757b62e939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\private">
+      <UniqueIdentifier>{3a6bf108-25f1-4d5f-a70a-1d6320a0cad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\public">
+      <UniqueIdentifier>{db04b470-b57e-438c-8d2b-f721ce3f51b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\public\ImGui">
+      <UniqueIdentifier>{fdb1e031-61c9-4102-a00c-d2bd9e4c265d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\public\ImGui\backends">
+      <UniqueIdentifier>{b8759097-bb6e-4256-8c97-da368c4c7846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\public\stbimage">
+      <UniqueIdentifier>{38531670-fd48-4a17-8d70-68cdf1929a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\public\ImGui\extension">
+      <UniqueIdentifier>{cc9c2519-c213-48bf-9cda-32103df124ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source\public</Filter>
+    </ClInclude>
+    <ClInclude Include="binlib\imgui\imstb_rectpack.h">
+      <Filter>Source\public\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="binlib\imgui\imstb_textedit.h">
+      <Filter>Source\public\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="binlib\imgui\imstb_truetype.h">
+      <Filter>Source\public\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="binlib\imgui\imconfig.h">
+      <Filter>Source\public\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="binlib\imgui\imgui.h">
+      <Filter>Source\public\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="binlib\imgui\imgui_internal.h">
+      <Filter>Source\public\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="binlib\imgui\backends\imgui_impl_opengl3.h">
+      <Filter>Source\public\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="binlib\imgui\backends\imgui_impl_opengl3_loader.h">
+      <Filter>Source\public\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="binlib\imgui\backends\imgui_impl_glfw.h">
+      <Filter>Source\public\ImGui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="Applcation.h">
+      <Filter>Source\public</Filter>
+    </ClInclude>
+    <ClInclude Include="hud.h">
+      <Filter>Source\public</Filter>
+    </ClInclude>
+    <ClInclude Include="byimage.hpp">
+      <Filter>Source\public</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>Source\public</Filter>
+    </ClInclude>
+    <ClInclude Include="binlib\fontawesome\IconsFontAwesome6.h">
+      <Filter>Source\public</Filter>
+    </ClInclude>
+    <ClInclude Include="binlib\imnodes-0.5\imnodes_internal.h">
+      <Filter>Source\public\ImGui\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="binlib\imnodes-0.5\imnodes.h">
+      <Filter>Source\public\ImGui\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="node.hpp">
+      <Filter>Source\public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source\private</Filter>
+    </ClCompile>
+    <ClCompile Include="binlib\imgui\imgui_widgets.cpp">
+      <Filter>Source\public\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="binlib\imgui\imgui.cpp">
+      <Filter>Source\public\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="binlib\imgui\imgui_demo.cpp">
+      <Filter>Source\public\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="binlib\imgui\imgui_draw.cpp">
+      <Filter>Source\public\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="binlib\imgui\imgui_tables.cpp">
+      <Filter>Source\public\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="binlib\imgui\backends\imgui_impl_opengl3.cpp">
+      <Filter>Source\public\ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="binlib\imgui\backends\imgui_impl_glfw.cpp">
+      <Filter>Source\public\ImGui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="hud.cpp" />
+    <ClCompile Include="time.cpp" />
+    <ClCompile Include="binlib\stb-master\deprecated\stb_image.c">
+      <Filter>Source\public\stbimage</Filter>
+    </ClCompile>
+    <ClCompile Include="binlib\imnodes-0.5\imnodes.cpp">
+      <Filter>Source\public\ImGui\extension</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
